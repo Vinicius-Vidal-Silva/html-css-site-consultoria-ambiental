@@ -1,0 +1,142 @@
+*{
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}  
+
+.header{
+    color: blue;
+}
+
+.header > ul{
+    box-sizing: border-box;
+    list-style:  none;
+    display: flex;
+    padding: 5px 5px;
+    justify-content: center;
+}
+
+.header > ul > li{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    align-items: center;
+}
+
+.header > ul > li > img{
+    width: 110px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+.bigCard{
+    box-sizing: border-box;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(DJI_0120.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.bigCard > h1{
+    background-color: transparent;
+    color: white;
+    margin: auto;
+    margin-bottom: 0;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.division > h2{
+    text-align: center;
+}
+
+.division > p{
+    text-align: center;
+}
+
+.division > hr{
+    width: 30%; 
+    margin: auto; 
+    border-color: green; 
+    border-width: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 50px;
+}
+
+.smallCard{
+    display: grid;
+    margin-top: 10px;
+    width: 250px;
+    height: 200px; 
+    margin: 10px; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.smallCard > img{
+    width: 100%;
+    height: 200px; 
+}
+
+.smallCard > p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: blue;
+}
+
+/*
+    .smallCard a {
+        margin-top: 10px; 
+        font-size: 14px;
+        color: #000; 
+        text-decoration: none;
+    }
+    
+    .smallCard a:hover {
+        color: blue; 
+    }
+*/
+
+.aboutUs {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+img{
+    width: 320px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.texto{
+    width: 90%;
+    margin-left: 20px;
+    padding: auto;
+}
+
+.contactUs .contactUsContainer > h2{
+    text-align: center;
+}
+
+.contactUs .contactUsContainer > hr{
+    width: 30%; 
+    margin: auto; 
+    border-color: green; 
+    border-width: 5px;
+}
